@@ -6,7 +6,8 @@ chmod +x tcp.sh
 
 ./tcp.sh
 
-
-
 bash <(curl -L -s https://raw.githubusercontent.com/AllenWeaker/trojan/master/trojan_mult.sh)
 
+apt remove vim-common -y
+
+apt install vim -y
